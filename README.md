@@ -17,4 +17,9 @@
 rednet.send(tonumber(arguments[1]),arguments[2])
 print('"' ..arguments[2].. '" an ID '..arguments[1].." gesendet")  
 ```
+**f <Blöcke>** - Fährt die Turtle die angegebene Anzahl and Blöcken (oder 1) nach vorne
+
+**l** - Dreht die turtle nach links
+
+**r** Dreht die turtle nach rechts
 
