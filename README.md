@@ -21,5 +21,5 @@ print('"' ..arguments[2].. '" an ID '..arguments[1].." gesendet")
 
 **l** - Dreht die turtle nach links
 
-**r** Dreht die turtle nach rechts
+**r** - Dreht die turtle nach rechts
 
