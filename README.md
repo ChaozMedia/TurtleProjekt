@@ -1,24 +1,20 @@
 # TurtleProjekt
 
-## Unterüberschrift (H2)
+## Turtle API
 
-### Kleinere Überschrift (H3)
+### Über Network messages
 
-**Fetter Text**
+**ping** - sendet die Computer-ID von der Turtle zurück
 
-*Kursiver Text*
+### Über lokales Terminal
 
-**_Fett und kursiv_**
+**help** - Aufzählung der Befehle
 
-- Aufzählungspunkt 1
-- Aufzählungspunkt 2
-  - Unterpunkt
+**id** - gibt die Computer-ID von der Turtle aus
 
-1. Nummerierte Liste 1
-2. Nummerierte Liste 2
+**send <ID> <message>** - sendet manuell eine Nachricht an die angegebene ID
+```lua
+rednet.send(tonumber(arguments[1]),arguments[2])
+print('"' ..arguments[2].. '" an ID '..arguments[1].." gesendet")  
+```
 
-`Code im Text`
-
-```python
-# Code-Block mit Syntax-Highlighting
-print("Hello, World!")
